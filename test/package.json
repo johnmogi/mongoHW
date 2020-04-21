@@ -1,0 +1,18 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "micro --listen tcp://localhost:3603",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "micro": "^9.3.4",
+    "mysql": "^2.18.1"
+  }
+}
